@@ -74,3 +74,36 @@ results/sample_math_test_output.txt
 ### Status
 
 Second test completed successfully.
+
+## Test Case 3: Research Summarization Query
+
+### Query
+
+```text
+Summarize the abstract and methodology of a research paper about LLM routing in simple terms
+```
+
+### Expected Routing
+
+```text
+Task Type: research
+Collaboration Mode: Research-Analysis-Summary
+Agents: Researcher, Analyst, Summarizer
+LLM Used: gemini/gemini-2.5-flash
+```
+
+### Observed Workflow
+
+```text
+User Query -> MasRouter Plan -> Researcher Agent -> Analyst Agent -> Summarizer Agent -> Final Answer
+```
+
+### Full Output
+
+```text
+results/sample_research_test_output.txt
+```
+
+### Status
+
+Third test completed successfully.

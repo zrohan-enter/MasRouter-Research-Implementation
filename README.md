@@ -205,3 +205,9 @@ Additional tested output:
 ```text
 results/sample_math_test_output.txt
 ```
+
+Third tested output:
+
+```text
+results/sample_research_test_output.txt
+```
