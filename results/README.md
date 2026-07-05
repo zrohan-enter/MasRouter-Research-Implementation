@@ -41,3 +41,36 @@ results/sample_prime_test_output.txt
 ## Status
 
 Working MVP tested successfully.
+
+## Test Case 2: Average Speed Math Problem
+
+### Query
+
+```text
+Solve this math problem: If a car travels 120 km in 3 hours, what is its average speed?
+```
+
+### Expected Routing
+
+```text
+Task Type: math
+Collaboration Mode: Chain + Verification
+Agents: Math Analyst, Calculator, Verifier
+LLM Used: gemini/gemini-2.5-flash
+```
+
+### Observed Workflow
+
+```text
+User Query -> MasRouter Plan -> Math Analyst Agent -> Calculator Agent -> Verifier Agent -> Final Answer
+```
+
+### Full Output
+
+```text
+results/sample_math_test_output.txt
+```
+
+### Status
+
+Second test completed successfully.

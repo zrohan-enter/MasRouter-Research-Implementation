@@ -199,3 +199,9 @@ The tested query was:
 ```text
 Write a Python function to check prime number
 ```
+
+Additional tested output:
+
+```text
+results/sample_math_test_output.txt
+```
