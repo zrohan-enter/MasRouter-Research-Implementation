@@ -179,3 +179,23 @@ The system can successfully:
 - assign LLMs
 - run Gemini-powered multi-agent execution
 - produce final verified output
+
+## Tested Results
+
+A tested sample output is available in the `results/` folder.
+
+```text
+results/sample_prime_test_output.txt
+```
+
+This output proves the working MasRouter pipeline:
+
+```text
+Query -> Router Plan -> Programmer Agent -> Tester Agent -> Verifier Agent -> Final Answer
+```
+
+The tested query was:
+
+```text
+Write a Python function to check prime number
+```
