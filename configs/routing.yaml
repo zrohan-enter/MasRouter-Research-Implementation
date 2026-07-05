@@ -1,0 +1,17 @@
+max_agents: 6
+roles:
+  coding:
+    - Programmer
+    - Tester
+    - Verifier
+  math:
+    - Math Analyst
+    - Calculator
+    - Verifier
+  research:
+    - Researcher
+    - Analyst
+    - Summarizer
+  general:
+    - General Analyst
+    - Final Answer Writer

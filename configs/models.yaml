@@ -1,0 +1,5 @@
+models:
+  cheap_general: "gemini/gemini-2.5-flash"
+  strong_general: "gemini/gemini-2.5-flash"
+  coding: "gemini/gemini-2.5-flash"
+  verifier: "gemini/gemini-2.5-flash"

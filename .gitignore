@@ -1,0 +1,13 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+*.pt
+*.bin
+*.safetensors
+models/
+datasets/
+cache/
+logs/
+results/full/
+wandb/
